@@ -10,7 +10,7 @@ function Thumbnail({ title, submissions, id, noq, type }) {
 
   if (type === 'video') link = `http://img.youtube.com/vi/${id}/maxresdefault.jpg`;
   else
-    link = `https://raw.githubusercontent.com/s4shibam/cuizzy/master/thumbnails/${id}.webp`;
+    link = `https://raw.githubusercontent.com/tinnguyen162002/quizz/refs/heads/main/thumbnails/${id}.webp`;
 
   return (
     <div
